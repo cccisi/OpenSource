@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_MLWE_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_MLWE" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="262200001fs"></ZoomEndTime>
+      <Cursor1Time time="136400000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="41" />
+   <wave_markers>
+      <marker time="10320000000" label="" />
+      <marker time="30000000" label="" />
+      <marker time="2660000000" label="" />
+      <marker time="5220000000" label="" />
+      <marker time="30878100000" label="" />
+      <marker time="51347911000" label="" />
+      <marker time="33427900000" label="" />
+      <marker time="35988100000" label="" />
+      <marker time="38546600000" label="" />
+      <marker time="41105500000" label="" />
+      <marker time="38485800000" label="" />
+      <marker time="35924600000" label="" />
+      <marker time="32084600000" label="" />
+      <marker time="20580000000" label="" />
+      <marker time="25637000000" label="" />
+      <marker time="56486233000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_MLWE/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/last_sel" type="array">
+      <obj_property name="ElementShortName">last_sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">last_sel[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/sel" type="array">
+      <obj_property name="ElementShortName">sel[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/data_i" type="array">
+      <obj_property name="ElementShortName">data_i[12:0]</obj_property>
+      <obj_property name="ObjectShortName">data_i[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/ram_data_o" type="array">
+      <obj_property name="ElementShortName">ram_data_o[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_o[25:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/done_delay1" type="logic">
+      <obj_property name="ElementShortName">done_delay1</obj_property>
+      <obj_property name="ObjectShortName">done_delay1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/wea_s" type="logic">
+      <obj_property name="ElementShortName">wea_s</obj_property>
+      <obj_property name="ObjectShortName">wea_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/i" type="array">
+      <obj_property name="ElementShortName">i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/j" type="array">
+      <obj_property name="ElementShortName">j[7:0]</obj_property>
+      <obj_property name="ObjectShortName">j[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/m" type="array">
+      <obj_property name="ElementShortName">m[8:0]</obj_property>
+      <obj_property name="ObjectShortName">m[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/t" type="array">
+      <obj_property name="ElementShortName">t[8:0]</obj_property>
+      <obj_property name="ObjectShortName">t[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/jF" type="array">
+      <obj_property name="ElementShortName">jF[7:0]</obj_property>
+      <obj_property name="ObjectShortName">jF[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/jL" type="array">
+      <obj_property name="ElementShortName">jL[7:0]</obj_property>
+      <obj_property name="ObjectShortName">jL[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_sb_u" type="array">
+      <obj_property name="ElementShortName">addr_sb_u[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_sb_u[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_sb_v" type="array">
+      <obj_property name="ElementShortName">addr_sb_v[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_sb_v[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/sel_delay1[0]" type="logic">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/sel_delay1" type="array">
+      <obj_property name="ElementShortName">sel_delay1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">sel_delay1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_sa" type="array">
+      <obj_property name="ElementShortName">addr_sa[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_sa[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_sb" type="array">
+      <obj_property name="ElementShortName">addr_sb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_sb[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_sb_delay1" type="array">
+      <obj_property name="ElementShortName">addr_sb_delay1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_sb_delay1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_ab[8]" type="logic">
+      <obj_property name="ElementShortName">[8]</obj_property>
+      <obj_property name="ObjectShortName">[8]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_ab" type="array">
+      <obj_property name="ElementShortName">addr_ab[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_ab[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_eb" type="array">
+      <obj_property name="ElementShortName">addr_eb[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_eb[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/fsm/addr_rom" type="array">
+      <obj_property name="ElementShortName">addr_rom[8:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_rom[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/ram_data_s" type="array">
+      <obj_property name="ElementShortName">ram_data_s[25:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_s[25:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/i_bf_a" type="array">
+      <obj_property name="ElementShortName">i_bf_a[12:0]</obj_property>
+      <obj_property name="ObjectShortName">i_bf_a[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/i_bf_b" type="array">
+      <obj_property name="ElementShortName">i_bf_b[12:0]</obj_property>
+      <obj_property name="ObjectShortName">i_bf_b[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/i_bf_c" type="array">
+      <obj_property name="ElementShortName">i_bf_c[12:0]</obj_property>
+      <obj_property name="ObjectShortName">i_bf_c[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/dsp_d" type="array">
+      <obj_property name="ElementShortName">dsp_d[13:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_d[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/dsp_o" type="array">
+      <obj_property name="ElementShortName">dsp_o[26:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_o[26:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/reduce_o" type="array">
+      <obj_property name="ElementShortName">reduce_o[12:0]</obj_property>
+      <obj_property name="ObjectShortName">reduce_o[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/H_o_reg" type="array">
+      <obj_property name="ElementShortName">H_o_reg[12:0]</obj_property>
+      <obj_property name="ObjectShortName">H_o_reg[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/L_o_mux" type="array">
+      <obj_property name="ElementShortName">L_o_mux[12:0]</obj_property>
+      <obj_property name="ObjectShortName">L_o_mux[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/o_bf_u" type="array">
+      <obj_property name="ElementShortName">o_bf_u[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_bf_u[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/o_bf_v" type="array">
+      <obj_property name="ElementShortName">o_bf_v[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_bf_v[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/L_o_reg" type="array">
+      <obj_property name="ElementShortName">L_o_reg[12:0]</obj_property>
+      <obj_property name="ObjectShortName">L_o_reg[12:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/core_sel_delay4[0]" type="logic">
+      <obj_property name="ElementShortName">[0]</obj_property>
+      <obj_property name="ObjectShortName">[0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/core_sel_delay4" type="array">
+      <obj_property name="ElementShortName">core_sel_delay4[2:0]</obj_property>
+      <obj_property name="ObjectShortName">core_sel_delay4[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/bf_sel" type="array">
+      <obj_property name="ElementShortName">bf_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bf_sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_MLWE/DUT/core/PE/dsp_sel" type="array">
+      <obj_property name="ElementShortName">dsp_sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dsp_sel[1:0]</obj_property>
+   </wvobject>
+</wave_config>

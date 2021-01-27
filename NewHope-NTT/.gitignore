@@ -1,0 +1,19 @@
+# For Vivado
+*.cache
+*.hw
+*.ip_user_files
+*.runs
+*.sim
+*.Xil
+
+*hdl/
+*misc/
+*sim/
+*simulation/
+*synth/
+*.log
+
+# For C
+*.depend
+bin
+obj

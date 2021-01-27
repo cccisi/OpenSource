@@ -1,0 +1,89 @@
+# depslib dependency file v1.0
+1554904617 source:e:\verilog\mlwe\ref\ntt.c
+	<stdint.h>
+	"params.h"
+	"ntt.h"
+	"reduce.h"
+
+1554904617 e:\verilog\mlwe\ref\params.h
+
+1554904617 e:\verilog\mlwe\ref\ntt.h
+	<stdint.h>
+
+1554904617 e:\verilog\mlwe\ref\reduce.h
+	<stdint.h>
+
+1554904617 source:e:\verilog\mlwe\ref\polyvec.c
+	<stdint.h>
+	"polyvec.h"
+	"poly.h"
+
+1554904617 e:\verilog\mlwe\ref\polyvec.h
+	"params.h"
+	"poly.h"
+
+1554904617 e:\verilog\mlwe\ref\poly.h
+	<stdint.h>
+	"params.h"
+
+1554904617 source:e:\verilog\mlwe\ref\reduce.c
+	<stdint.h>
+	"params.h"
+	"reduce.h"
+
+1588733801 source:e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\ntt.c
+	"inttypes.h"
+	"ntt.h"
+	"params.h"
+	"reduce.h"
+	<stdio.h>
+
+1587345415 e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\params.h
+
+1587350582 e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\ntt.h
+	<stdint.h>
+
+1587347630 e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\reduce.h
+	<stdint.h>
+
+1588576142 source:e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\poly.c
+	<stdint.h>
+	<stdio.h>
+	"params.h"
+	"poly.h"
+	"ntt.h"
+	"reduce.h"
+	"polyvec.h"
+
+1587350231 e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\poly.h
+	<stdint.h>
+	"params.h"
+
+1587350360 source:e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\polyvec.c
+	<stdint.h>
+	"polyvec.h"
+	"poly.h"
+
+1587350410 e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\polyvec.h
+	"params.h"
+	"poly.h"
+
+1587347605 source:e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\reduce.c
+	"reduce.h"
+	"params.h"
+
+1588734261 source:e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\indcpa.c
+	<stdint.h>
+	<math.h>
+	<stdio.h>
+	<string.h>
+	"poly.h"
+	"polyvec.h"
+	"ntt.h"
+	"params.h"
+
+1587354333 source:e:\verilog\kyber-ntt\mlwe_hp\mlwe_ref\precomp.c
+	"inttypes.h"
+	"ntt.h"
+	"params.h"
+

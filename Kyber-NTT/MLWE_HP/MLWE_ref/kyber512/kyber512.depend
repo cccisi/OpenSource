@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1555139361 source:e:\verilog\mlwe\ref\kyber512\indcpa.c
+	<string.h>
+	<math.h>
+	<stdio.h>
+	<stdint.h>
+	"poly.h"
+	"polyvec.h"
+	"ntt.h"
+	"params.h"
+
+1513549946 e:\verilog\mlwe\ref\kyber512\poly.h
+	<stdint.h>
+	"params.h"
+
+1513549946 e:\verilog\mlwe\ref\kyber512\params.h
+
+1513549946 e:\verilog\mlwe\ref\kyber512\polyvec.h
+	"params.h"
+	"poly.h"
+
+1513549946 e:\verilog\mlwe\ref\kyber512\ntt.h
+	<stdint.h>
+
+1513549946 source:e:\verilog\mlwe\ref\kyber512\ntt.c
+	"inttypes.h"
+	"ntt.h"
+	"params.h"
+	"reduce.h"
+
+1513549946 e:\verilog\mlwe\ref\kyber512\reduce.h
+	<stdint.h>
+
+1555138952 source:e:\verilog\mlwe\ref\kyber512\poly.c
+	<stdio.h>
+	"poly.h"
+	"ntt.h"
+	"polyvec.h"
+	"reduce.h"
+	"cbd.h"
+	"fips202.h"
+
+1513549946 e:\verilog\mlwe\ref\kyber512\cbd.h
+	<stdint.h>
+	"poly.h"
+
+1513549946 e:\verilog\mlwe\ref\kyber512\fips202.h
+	<stdint.h>
+
+1555138923 source:e:\verilog\mlwe\ref\kyber512\polyvec.c
+	<stdio.h>
+	"polyvec.h"
+	"reduce.h"
+
+1513549946 source:e:\verilog\mlwe\ref\kyber512\precomp.c
+	"inttypes.h"
+	"ntt.h"
+	"params.h"
+
+1513549946 source:e:\verilog\mlwe\ref\kyber512\reduce.c
+	"reduce.h"
+	"params.h"
+

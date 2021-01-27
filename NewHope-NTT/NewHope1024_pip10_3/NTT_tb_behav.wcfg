@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="NTT_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="NTT_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="437333334fs"></ZoomStartTime>
+      <ZoomEndTime time="693333335fs"></ZoomEndTime>
+      <Cursor1Time time="457333000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="163"></NameColumnWidth>
+      <ValueColumnWidth column_width="153"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+      <marker time="51500000000" label="" />
+      <marker time="310000000" label="" />
+      <marker time="5561900000" label="" />
+      <marker time="8010000000" label="" />
+      <marker time="445995000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/NTT_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NTT_tb/sel" type="array">
+      <obj_property name="ElementShortName">sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NTT_tb/o_u_reg" type="array">
+      <obj_property name="ElementShortName">o_u_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_u_reg[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NTT_tb/o_v_reg" type="array">
+      <obj_property name="ElementShortName">o_v_reg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">o_v_reg[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/NTT_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="group130" type="group">
+      <obj_property name="label">FSM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/sel_nxt" type="array">
+         <obj_property name="ElementShortName">sel_nxt[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel_nxt[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_s0_u" type="array">
+         <obj_property name="ElementShortName">addr_s0_u[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s0_u[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_s0_v" type="array">
+         <obj_property name="ElementShortName">addr_s0_v[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s0_v[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_s0_bp_u" type="array">
+         <obj_property name="ElementShortName">addr_s0_bp_u[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s0_bp_u[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_s0_bp_v" type="array">
+         <obj_property name="ElementShortName">addr_s0_bp_v[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s0_bp_v[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_s1_u" type="array">
+         <obj_property name="ElementShortName">addr_s1_u[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s1_u[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_s1_v" type="array">
+         <obj_property name="ElementShortName">addr_s1_v[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s1_v[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_s1_bp_u" type="array">
+         <obj_property name="ElementShortName">addr_s1_bp_u[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s1_bp_u[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_s1_bp_v" type="array">
+         <obj_property name="ElementShortName">addr_s1_bp_v[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s1_bp_v[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_rom" type="array">
+         <obj_property name="ElementShortName">addr_rom[11:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_rom[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s0" type="logic">
+         <obj_property name="ElementShortName">we_s0</obj_property>
+         <obj_property name="ObjectShortName">we_s0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s0_bp" type="logic">
+         <obj_property name="ElementShortName">we_s0_bp</obj_property>
+         <obj_property name="ObjectShortName">we_s0_bp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1" type="logic">
+         <obj_property name="ElementShortName">we_s1</obj_property>
+         <obj_property name="ObjectShortName">we_s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_bp" type="logic">
+         <obj_property name="ElementShortName">we_s1_bp</obj_property>
+         <obj_property name="ObjectShortName">we_s1_bp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/sel_delay1" type="array">
+         <obj_property name="ElementShortName">sel_delay1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel_delay1[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/sel_delay2" type="array">
+         <obj_property name="ElementShortName">sel_delay2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel_delay2[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/sel_delay3" type="logic">
+         <obj_property name="ElementShortName">sel_delay3</obj_property>
+         <obj_property name="ObjectShortName">sel_delay3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd" type="array">
+         <obj_property name="ElementShortName">addr_su_rd[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_wt" type="array">
+         <obj_property name="ElementShortName">addr_su_wt[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_wt[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_wt" type="array">
+         <obj_property name="ElementShortName">addr_sv_wt[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_wt[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay1" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay1[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay2" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay2[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay3" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay3[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay3[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay4" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay4[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay4[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay5" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay5[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay5[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay6" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay6[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay6[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay7" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay7[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay7[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay8" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay8[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay8[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay9" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay9[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay9[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay10" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay10[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay10[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_su_rd_delay11" type="array">
+         <obj_property name="ElementShortName">addr_su_rd_delay11[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_su_rd_delay11[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay1" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay1[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay1[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay2" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay2[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay2[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay3" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay3[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay3[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay4" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay4[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay4[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay5" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay5[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay5[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay6" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay6[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay6[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay7" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay7[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay7[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay8" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay8[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay8[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay9" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay9[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay9[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay10" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay10[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay10[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_sv_rd_delay11" type="array">
+         <obj_property name="ElementShortName">addr_sv_rd_delay11[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_sv_rd_delay11[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/u_wire" type="array">
+         <obj_property name="ElementShortName">u_wire[9:0]</obj_property>
+         <obj_property name="ObjectShortName">u_wire[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/v_wire" type="array">
+         <obj_property name="ElementShortName">v_wire[9:0]</obj_property>
+         <obj_property name="ObjectShortName">v_wire[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/u_wire_rev" type="array">
+         <obj_property name="ElementShortName">u_wire_rev[9:0]</obj_property>
+         <obj_property name="ObjectShortName">u_wire_rev[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/v_wire_rev" type="array">
+         <obj_property name="ElementShortName">v_wire_rev[9:0]</obj_property>
+         <obj_property name="ObjectShortName">v_wire_rev[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_rom_delay1" type="array">
+         <obj_property name="ElementShortName">addr_rom_delay1[11:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_rom_delay1[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_rom_delay2" type="array">
+         <obj_property name="ElementShortName">addr_rom_delay2[11:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_rom_delay2[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/addr_rom_delay3" type="array">
+         <obj_property name="ElementShortName">addr_rom_delay3[11:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_rom_delay3[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/NTT" type="array">
+         <obj_property name="ElementShortName">NTT[3:0]</obj_property>
+         <obj_property name="ObjectShortName">NTT[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/INTT" type="array">
+         <obj_property name="ElementShortName">INTT[3:0]</obj_property>
+         <obj_property name="ObjectShortName">INTT[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/PWM" type="array">
+         <obj_property name="ElementShortName">PWM[3:0]</obj_property>
+         <obj_property name="ObjectShortName">PWM[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/IDLE" type="array">
+         <obj_property name="ElementShortName">IDLE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">IDLE[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/j_delay1" type="array">
+         <obj_property name="ElementShortName">j_delay1[10:0]</obj_property>
+         <obj_property name="ObjectShortName">j_delay1[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/jLast_jt" type="array">
+         <obj_property name="ElementShortName">jLast_jt[10:0]</obj_property>
+         <obj_property name="ObjectShortName">jLast_jt[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/jFirst" type="array">
+         <obj_property name="ElementShortName">jFirst[10:0]</obj_property>
+         <obj_property name="ObjectShortName">jFirst[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/t" type="array">
+         <obj_property name="ElementShortName">t[10:0]</obj_property>
+         <obj_property name="ObjectShortName">t[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/i" type="array">
+         <obj_property name="ElementShortName">i[10:0]</obj_property>
+         <obj_property name="ObjectShortName">i[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/j" type="array">
+         <obj_property name="ElementShortName">j[10:0]</obj_property>
+         <obj_property name="ObjectShortName">j[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/logt" type="array">
+         <obj_property name="ElementShortName">logt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">logt[3:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/m" type="array">
+         <obj_property name="ElementShortName">m[10:0]</obj_property>
+         <obj_property name="ObjectShortName">m[10:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/logt0_delay2" type="logic">
+         <obj_property name="ElementShortName">logt0_delay2</obj_property>
+         <obj_property name="ObjectShortName">logt0_delay2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/logt0_delay3" type="logic">
+         <obj_property name="ElementShortName">logt0_delay3</obj_property>
+         <obj_property name="ObjectShortName">logt0_delay3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay1" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay1</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay2" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay2</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay3" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay3</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay4" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay4</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay5" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay5</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay6" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay6</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay7" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay7</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay8" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay8</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay9" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay9</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay10" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay10</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/fsm/we_s1_delay11" type="logic">
+         <obj_property name="ElementShortName">we_s1_delay11</obj_property>
+         <obj_property name="ObjectShortName">we_s1_delay11</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group48" type="group">
+      <obj_property name="label">NTT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/NTT_tb/DUT/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_nxt" type="array">
+         <obj_property name="ElementShortName">sel_nxt[1:0]</obj_property>
+         <obj_property name="ObjectShortName">sel_nxt[1:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/o_u_reg" type="array">
+         <obj_property name="ElementShortName">o_u_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_u_reg[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/o_v_reg" type="array">
+         <obj_property name="ElementShortName">o_v_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_v_reg[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_s0_u" type="array">
+         <obj_property name="ElementShortName">addr_s0_u[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s0_u[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_s0_v" type="array">
+         <obj_property name="ElementShortName">addr_s0_v[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s0_v[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_s0_bp_u" type="array">
+         <obj_property name="ElementShortName">addr_s0_bp_u[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s0_bp_u[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_s0_bp_v" type="array">
+         <obj_property name="ElementShortName">addr_s0_bp_v[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s0_bp_v[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_s1_u" type="array">
+         <obj_property name="ElementShortName">addr_s1_u[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s1_u[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_s1_v" type="array">
+         <obj_property name="ElementShortName">addr_s1_v[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s1_v[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_s1_bp_u" type="array">
+         <obj_property name="ElementShortName">addr_s1_bp_u[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s1_bp_u[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_s1_bp_v" type="array">
+         <obj_property name="ElementShortName">addr_s1_bp_v[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_s1_bp_v[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/addr_rom" type="array">
+         <obj_property name="ElementShortName">addr_rom[11:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_rom[11:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/we_s0" type="logic">
+         <obj_property name="ElementShortName">we_s0</obj_property>
+         <obj_property name="ObjectShortName">we_s0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/we_s0_bp" type="logic">
+         <obj_property name="ElementShortName">we_s0_bp</obj_property>
+         <obj_property name="ObjectShortName">we_s0_bp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/we_s1" type="logic">
+         <obj_property name="ElementShortName">we_s1</obj_property>
+         <obj_property name="ObjectShortName">we_s1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/we_s1_bp" type="logic">
+         <obj_property name="ElementShortName">we_s1_bp</obj_property>
+         <obj_property name="ObjectShortName">we_s1_bp</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/i_u_wire" type="array">
+         <obj_property name="ElementShortName">i_u_wire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_u_wire[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/i_v_wire" type="array">
+         <obj_property name="ElementShortName">i_v_wire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_v_wire[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/s0_u_dout" type="array">
+         <obj_property name="ElementShortName">s0_u_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s0_u_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/s0_v_dout" type="array">
+         <obj_property name="ElementShortName">s0_v_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s0_v_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/s0_bp_u_dout" type="array">
+         <obj_property name="ElementShortName">s0_bp_u_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s0_bp_u_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/s0_bp_v_dout" type="array">
+         <obj_property name="ElementShortName">s0_bp_v_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s0_bp_v_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/s1_u_dout" type="array">
+         <obj_property name="ElementShortName">s1_u_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s1_u_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/s1_v_dout" type="array">
+         <obj_property name="ElementShortName">s1_v_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s1_v_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/s1_bp_u_dout" type="array">
+         <obj_property name="ElementShortName">s1_bp_u_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s1_bp_u_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/s1_bp_v_dout" type="array">
+         <obj_property name="ElementShortName">s1_bp_v_dout[15:0]</obj_property>
+         <obj_property name="ObjectShortName">s1_bp_v_dout[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/psi_omega" type="array">
+         <obj_property name="ElementShortName">psi_omega[13:0]</obj_property>
+         <obj_property name="ObjectShortName">psi_omega[13:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay1" type="logic">
+         <obj_property name="ElementShortName">sel_delay1</obj_property>
+         <obj_property name="ObjectShortName">sel_delay1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay2" type="logic">
+         <obj_property name="ElementShortName">sel_delay2</obj_property>
+         <obj_property name="ObjectShortName">sel_delay2</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay3" type="logic">
+         <obj_property name="ElementShortName">sel_delay3</obj_property>
+         <obj_property name="ObjectShortName">sel_delay3</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay4" type="logic">
+         <obj_property name="ElementShortName">sel_delay4</obj_property>
+         <obj_property name="ObjectShortName">sel_delay4</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay5" type="logic">
+         <obj_property name="ElementShortName">sel_delay5</obj_property>
+         <obj_property name="ObjectShortName">sel_delay5</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay6" type="logic">
+         <obj_property name="ElementShortName">sel_delay6</obj_property>
+         <obj_property name="ObjectShortName">sel_delay6</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay7" type="logic">
+         <obj_property name="ElementShortName">sel_delay7</obj_property>
+         <obj_property name="ObjectShortName">sel_delay7</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay8" type="logic">
+         <obj_property name="ElementShortName">sel_delay8</obj_property>
+         <obj_property name="ObjectShortName">sel_delay8</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay9" type="logic">
+         <obj_property name="ElementShortName">sel_delay9</obj_property>
+         <obj_property name="ObjectShortName">sel_delay9</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay10" type="logic">
+         <obj_property name="ElementShortName">sel_delay10</obj_property>
+         <obj_property name="ObjectShortName">sel_delay10</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/sel_delay11" type="logic">
+         <obj_property name="ElementShortName">sel_delay11</obj_property>
+         <obj_property name="ObjectShortName">sel_delay11</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group177" type="group">
+      <obj_property name="label">Butterfly</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/NTT_tb/DUT/PE/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/sel" type="logic">
+         <obj_property name="ElementShortName">sel</obj_property>
+         <obj_property name="ObjectShortName">sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/i_u_wire" type="array">
+         <obj_property name="ElementShortName">i_u_wire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_u_wire[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/i_v_wire" type="array">
+         <obj_property name="ElementShortName">i_v_wire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_v_wire[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/psi_omega" type="array">
+         <obj_property name="ElementShortName">psi_omega[13:0]</obj_property>
+         <obj_property name="ObjectShortName">psi_omega[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_u_reg" type="array">
+         <obj_property name="ElementShortName">o_u_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_u_reg[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_v_reg" type="array">
+         <obj_property name="ElementShortName">o_v_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_v_reg[15:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/i_u_reg" type="array">
+         <obj_property name="ElementShortName">i_u_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_u_reg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/i_v_reg" type="array">
+         <obj_property name="ElementShortName">i_v_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">i_v_reg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/omega_reg" type="array">
+         <obj_property name="ElementShortName">omega_reg[13:0]</obj_property>
+         <obj_property name="ObjectShortName">omega_reg[13:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_u_wire" type="array">
+         <obj_property name="ElementShortName">o_u_wire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_u_wire[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_v_wire" type="array">
+         <obj_property name="ElementShortName">o_v_wire[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_v_wire[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/kred2x_o" type="array">
+         <obj_property name="ElementShortName">kred2x_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">kred2x_o[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/dsp_o_11" type="logic">
+         <obj_property name="ElementShortName">dsp_o_11</obj_property>
+         <obj_property name="ObjectShortName">dsp_o_11</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/dsp_o_11_delay" type="logic">
+         <obj_property name="ElementShortName">dsp_o_11_delay</obj_property>
+         <obj_property name="ObjectShortName">dsp_o_11_delay</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_kred_reg" type="array">
+         <obj_property name="ElementShortName">o_kred_reg[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kred_reg[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_kred_reg_delay2" type="array">
+         <obj_property name="ElementShortName">o_kred_reg_delay2[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kred_reg_delay2[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_kred_reg_delay3" type="array">
+         <obj_property name="ElementShortName">o_kred_reg_delay3[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kred_reg_delay3[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_kred_reg_delay4" type="array">
+         <obj_property name="ElementShortName">o_kred_reg_delay4[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kred_reg_delay4[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_kred_reg_delay5" type="array">
+         <obj_property name="ElementShortName">o_kred_reg_delay5[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kred_reg_delay5[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_kred_reg_delay6" type="array">
+         <obj_property name="ElementShortName">o_kred_reg_delay6[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kred_reg_delay6[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/add_mux_o" type="array">
+         <obj_property name="ElementShortName">add_mux_o[14:0]</obj_property>
+         <obj_property name="ObjectShortName">add_mux_o[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/add_mux_o_delay" type="array">
+         <obj_property name="ElementShortName">add_mux_o_delay[14:0]</obj_property>
+         <obj_property name="ObjectShortName">add_mux_o_delay[14:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/sub_mux_o" type="array">
+         <obj_property name="ElementShortName">sub_mux_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sub_mux_o[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/sub_mux_o_delay" type="array">
+         <obj_property name="ElementShortName">sub_mux_o_delay[15:0]</obj_property>
+         <obj_property name="ObjectShortName">sub_mux_o_delay[15:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/dsp_o" type="array">
+         <obj_property name="ElementShortName">dsp_o[29:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_o[29:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/dsp_o_delay" type="array">
+         <obj_property name="ElementShortName">dsp_o_delay[29:0]</obj_property>
+         <obj_property name="ObjectShortName">dsp_o_delay[29:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/i_u_12L1" type="array">
+         <obj_property name="ElementShortName">i_u_12L1[12:0]</obj_property>
+         <obj_property name="ObjectShortName">i_u_12L1[12:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/NTT_tb/DUT/PE/o_kred" type="array">
+         <obj_property name="ElementShortName">o_kred[15:0]</obj_property>
+         <obj_property name="ObjectShortName">o_kred[15:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

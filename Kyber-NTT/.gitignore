@@ -1,0 +1,13 @@
+*.cache
+*.hw
+*.ip_user_files
+*.runs
+*.sim
+*.Xil
+
+*hdl/
+*misc/
+*sim/
+*simulation/
+*synth/
+*.log
